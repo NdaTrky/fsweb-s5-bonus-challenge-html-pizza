@@ -1,6 +1,4 @@
-* {
-  border: 1px solid blue;
-}
+
 
 :root {
   --sari: #fdc913;
@@ -11,45 +9,282 @@
 }
 
 body {
-  width: 585px;
-}
+    width: 585px;
+    background-color: var(--bej)
+    
+  }
+
+  header div {
+    margin-top: -50px; 
+  }
+  
+  
 
 header {
-  height: 1080px;
   background-color: #ce2829;
   font-family: Roboto Condensed;
-  text-align: center;
+  text-align:center;
   color: #faf7f2;
   background-image: url("public/assets/iteration-1/home-banner.png");
   background-position: 50%;
   background-size: cover;
-  height: 1080px;
-  padding: 70px;
+  padding: 100px;
+  height: 65vh; 
+  
 }
+
+
 
 header p {
-font-size: 86px;
-font-weight: 300;
-line-height: 92px;
-letter-spacing: 1.5px;
-margin: 40px 0;
-
+  font-size: 86px;
+  font-weight: 300;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  margin: 20px 0;
 }
 
-header h1 {
-}
 
 
 .btn {
-border-radius:50px;
-width: 193.27px;
-height: 56px;
-background-color: #fdc913;
-font-family: Barlow;
-font-size: 24px;
-font-weight: 600;
-line-height: 56px;
-text-align: center;
+  border-radius: 50px;
+  background-color: #fdc913;
+  font-family: Barlow;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  border-style: hidden;
+}
+
+
+.menu-container {
+
+  display: flex;
+  padding:1rem ;
+  flex-wrap: wrap;
+  
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+  align-items: center;
+  gap: 10px;
+  padding: 2rem 0;
+ 
+  
+
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-items div {
+  display:flex;
+  align-items: center;
+  width:40%;
+  gap: 10px;
+ 
+}
+
+.menu-items img {
+ display: flex;
+ justify-content: space-between;
+ 
+  }
+
+.cards {
+display: flex;
+flex-direction: column;
+gap: 16px;
+margin-top: -20px;
+
+}
+
+.one-card {
+background-image: url("/public/assets/iteration-2/cta/kart-1.png");
+background-position:0%;
+background-size:cover;
+background-repeat:inherit;
+padding: 44px 49px 44px 49px;
+gap: 10px;
+border-radius: 50px;
 
 
 }
+
+h2 {
+  font-family: Quattrocento;
+  font-size: 70px;
+  color: white ; 
+  position: relative;
+  top: -50px; 
+   
+}
+
+
+.one-card p {
+font-family: Barlow;
+font-size: 20px;
+color: white;
+position: relative;
+  top: -90px; 
+
+}
+
+.btn1 {
+font-family: Barlow;
+font-size: medium;
+font-weight: 600;
+border-radius: 50px;
+width:150px;
+height: 50px;
+outline: none;
+color:red;
+box-shadow: none; /* kenardaki siyahlıkları kaldırmak için*/
+position: relative;
+top: -60px; 
+background-color:white;
+border-style: hidden;
+
+
+
+
+}
+
+
+.two-card {
+background-image: url("./public/assets/iteration-2/cta/kart-4.png");
+background-position:right;
+background-size:20vh;
+background-repeat:no-repeat;
+padding: 80px 49px 44px 49px;
+gap: 16px;
+border-radius: 50px;
+background-color: var(--koyu-gri);
+
+
+}
+
+h3 {
+  font-family: Barlow;
+  font-size: 32px;
+  color: white;
+  position:relative;
+  top: -40px;
+}
+
+
+.three-card {
+background-image: url("./public/assets/iteration-2/cta/kart-5.png");
+background-position: 90%;
+background-size: cover;
+background-repeat: space;
+padding:44px 49px 44px 49px ;
+border-radius: 50px;
+
+
+}
+
+h4 {
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44.27px;
+  text-align: left;
+  position:relative;
+  top: -50px;
+  
+}
+
+
+.still {
+  color: red;
+}
+
+h5 {
+font-family: Satisfy;
+font-size: 32px;
+font-weight: 400;
+line-height: 44.27px;
+text-align: center;
+color:red;
+
+}
+
+.four-card {
+  font-family: Barlow;
+font-size: 42px;
+font-weight: 600;
+line-height: 56.2px;
+text-align: center;
+
+}
+
+
+.menu-section {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+
+.menu-container-one {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.menu-items-one {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content:space-between;
+  width: 65%;
+ 
+
+}
+
+
+.menu-items-one button {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+ padding: 12px 20px 12px 20px;
+ background-color:white;
+ border-style: hidden;
+ 
+ }
+
+ .menu-items-one button:hover {
+  color: white;
+  background-color: var(--koyu-gri);
+  transition-duration: 0.5s;
+ }
+
+
+
+
+
+
+
+
+  
+
+
+
+
