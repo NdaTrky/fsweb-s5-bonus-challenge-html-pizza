@@ -28,8 +28,9 @@ header {
   background-image: url("public/assets/iteration-1/home-banner.png");
   background-position: 50%;
   background-size: cover;
-  padding: 100px;
-  height: 65vh; 
+  padding: 135px;
+  height: 35vh; 
+
   
 }
 
@@ -107,10 +108,10 @@ section {
   }
 
 .cards {
-display: flex;
-flex-direction: column;
-gap: 16px;
-margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: -20px;
 
 }
 
@@ -138,10 +139,10 @@ h2 {
 
 .one-card p {
 font-family: Barlow;
-font-size: 20px;
+font-size: 10px;
 color: white;
 position: relative;
-  top: -90px; 
+top: -90px; 
 
 }
 
@@ -189,8 +190,8 @@ h3 {
 
 
 .three-card {
-background-image: url("./public/assets/iteration-2/cta/kart-5.png");
-background-position: 90%;
+background-image: url("./public/assets/iteration-2/cta/kart-3.png");
+background-position: 80%;
 background-size: cover;
 background-repeat: space;
 padding:44px 49px 44px 49px ;
@@ -226,7 +227,7 @@ color:red;
 }
 
 .four-card {
-  font-family: Barlow;
+font-family: Barlow;
 font-size: 42px;
 font-weight: 600;
 line-height: 56.2px;
@@ -274,17 +275,162 @@ text-align: center;
   color: white;
   background-color: var(--koyu-gri);
   transition-duration: 0.5s;
- }
+ 
+}
+
+.food-cards-container {
+ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
 
 
 
 
+.one-food-pizza {
+  background-image: url("/public/assets/iteration-2/pictures/food-1.png");
+  background-position:10%;
+  background-size:15vh;
+  background-repeat:no-repeat;
+  background-position:50px;
+  background-repeat:no-repeat;
+  width: 420px;
+  height: 520px;
+  row-gap: 16px;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding:44px 49px 44px 49px ;
+  background-color: white;
+  position:relative;
+  bottom:30px;
+  top: 5px;
+  
+ 
+
+ 
+}
+
+.two-food-pizza {
+  background-image: url("/public/assets/iteration-2/pictures/food-2.png");
+  background-position:10%;
+  background-size:15vh;
+  background-repeat:no-repeat;
+  background-position:50px;
+  background-repeat:no-repeat;
+  width: 420px;
+  height: 520px;
+  gap: 16px;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding:44px 49px 44px 49px ;
+  background-color: white;
+  position:relative;
+  top:15px;
+ 
+}
+
+.three-food-burger {
+  background-image: url("/public/assets/iteration-2/pictures/food-3.png");
+  background-position:10%;
+  background-size:16vh;
+  background-repeat:no-repeat;
+  background-position:30px;
+  background-repeat:no-repeat;
+  width: 420px;
+  height: 500px;
+  gap: 16px;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding:44px;
+  background-color: white;
+  position:relative;
+  top:25px;
+}
+
+ h6 {
+  display: flex;
+  font-family: Barlow;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 29.44px;
+  text-align: left;
+  position: relative;
+  top: 80%;
+  
+ 
+ 
+}
+
+
+.food-card-info {
+  font-family: Barlow;
+font-size: 16px;
+font-weight: 600;
+line-height: 28.8px;
+text-align: left;
+position: relative;
+top: 75%;
+
+}
+
+.food-card-price {
+font-family: Barlow;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.76px;
+text-align: right;
+width: 55px;
+height: 25px;
+top: 2px;
+gap: 0px;
+position: relative;
+top: 66%;
+left:80%;
+
+}
 
 
 
+.footer {
+  display:flex;
+  background-color: var(--koyu-gri);
+  flex-direction: column;
+  margin: 2rem;
+color: white;
+}
 
+
+.footer-title {
+font-family: Londrina Solid;
+font-size: 50px;
+font-weight: 400px;
+line-height: 90px;
+text-align: left;
+font-size: 40px;
+font-weight: 15%;
+line-height: 70px;
+letter-spacing: 1.5px;
+margin: 0px 0;
+}
+
+
+.footer-gallery-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
   
 
+}
 
+.img-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+  gap:1rem;
+}
 
 
